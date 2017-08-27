@@ -28,6 +28,8 @@ defmodule ElixirPrac.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+       {:excoveralls, "~> 0.7", only: :test}
+    ]
   end
 end
